@@ -17,11 +17,7 @@ Flare is a modern messenger with advanced messaging capabilities, multimedia fil
 
 ### 🔹 Frontend:
 
-<<<<<<< HEAD
-- **React** (Next.js) — For rendering pages and client-side logic.
-=======
 - **React** — For rendering pages and client-side logic.
->>>>>>> f950c8163218458e6072557bdc2fc68ce31ca636
 - **Redux Toolkit / React Query** — State management.
 - **Framer Motion** — Animations and smooth transitions.
 - **WebSockets (Socket.io)** — Real-time messaging.
@@ -67,8 +63,6 @@ NEXT_PUBLIC_SOCKET_URL=http://localhost:5000
 
 ```bash
 npm run dev
-<<<<<<< HEAD
 ```
 =======
 ```
->>>>>>> f950c8163218458e6072557bdc2fc68ce31ca636
