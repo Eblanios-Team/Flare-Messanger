@@ -18,9 +18,13 @@ Flare is a modern messenger with advanced messaging capabilities, multimedia fil
 ### 🔹 Frontend:
 
 - **React** — For rendering pages and client-side logic.
-- **Redux Toolkit / React Query** — State management.
+- **TypeScript** — For strict typing and better development experience.
+- **Redux Toolkit** — State management.
+- **Tailwind CSS** — For utility-first CSS styling, making responsive design and customization faster and easier.
 - **Framer Motion** — Animations and smooth transitions.
 - **WebSockets (Socket.io)** — Real-time messaging.
+- **ESLint / Prettier** — For maintaining code quality and consistency.
+- **Vercel / Netlify** — For deployment and CI/CD.
 
 ### 🔹 Backend:
 
@@ -29,7 +33,10 @@ Flare is a modern messenger with advanced messaging capabilities, multimedia fil
 - **Redis** — Caching and task queue processing.
 - **Firebase Storage / S3** — Storage for multimedia files.
 - **WebSockets** — Real-time message handling.
-- **Cron Jobs** — Automated reminders and event processing.
+- **Docker** — For containerization, simplifying deployment, and ensuring consistency across environments.
+- **Echo (Go)** — For building high-performance, scalable web applications in Go (especially backend APIs).
+- **Slog** — Structured logging library for Go, providing better logging and debugging capabilities.
+- **JWT (JSON Web Token)** — For handling secure authentication and authorization in both frontend and backend 
 
 ---
 
@@ -40,8 +47,8 @@ Since the frontend and backend are in separate repositories, you need to configu
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/flare-frontend.git
-cd flare-frontend
+git clone https://github.com/Eblanios-Team/Flare-Messanger.git
+cd Flare-Messanger
 ```
 
 ### 2️⃣ Install Dependencies
