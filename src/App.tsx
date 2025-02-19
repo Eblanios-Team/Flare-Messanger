@@ -1,8 +1,10 @@
+import Nav from './components/Nav/Nav.tsx'
+
 function App() {
   return (
-    <p className="text-2xl font-bold">
-      Hello world!
-    </p>
+    <>
+      <Nav />
+    </>
   );
 }
 
