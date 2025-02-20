@@ -1,11 +1,18 @@
-import Nav from './components/Nav/Nav.tsx'
+import SignIn from './pages/SignIn/SignIn.tsx'
+import Login from "./pages/Login/Login.tsx"
+import Home from "./pages/Home/Home.tsx"
+import {Route, Routes} from "react-router";
 
 function App() {
   return (
     <>
-      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/sign-in" element={<SignIn />} />
+      </Routes>
     </>
-  );
+  )
 }
 
 
