@@ -16,8 +16,14 @@ export default {
         md: '768px',    // планшеты и маленькие ноутбуки
         lg: '1024px',   // обычные ноутбуки и экраны
         xl: '1536px',   // Full HD экраны и больше
+      },
+      fontFamily: {
+        sans: ['Nunito Sans'],
       }
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: true,
+  },
 }
