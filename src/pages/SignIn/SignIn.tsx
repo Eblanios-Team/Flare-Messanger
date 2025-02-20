@@ -144,6 +144,4 @@ const SignIn: React.FC = () => {
   )
 }
 
-// modal (useEffect + portal API)
-
 export default SignIn
