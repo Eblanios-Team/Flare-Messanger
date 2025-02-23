@@ -1,21 +1,24 @@
+import { useState } from "react";
 import { Link } from "react-router";
 
 export default function Nav() {
+  const [isVisible, setIsVisible] = useState<boolean>(false);
+
   return (
     <nav className="h-screen">
-      <div className="w-[175px] bg-orange h-full hidden sm:flex flex-col items-center">
+      <div className="w-[175px] bg-orange h-full hidden flex flex-col items-center sm:flex flex-col items-center">
         {/* Аватар */}
         <button className="mt-[60px] mb-[60px]">
           <img src="../../../public/img/avatar.png" alt="Avatar" className="border-solid border-2 border-white rounded-[100px]"/>
         </button>
 
         {/* Список навигации */}
-        <ul className="flex flex-col items-center flex-grow">
-          <li className="mb-[33px]">
-            <a href="#"><img src="../../../public/img/chat.png" alt="Chat" /></a>
+        <ul className="flex flex-col items-center flex-grow w-full">
+          <li className="mb-[48px]">
+            <a href="" className=""><img src="../../../public/img/chat.png" alt="Chat" /></a>
           </li>
-          <li className="mb-[33px]">
-            <a href="#"><img src="../../../public/img/notification.png" alt="Notifications" /></a>
+          <li className="mb-[48px]">
+            <a href=""><img src="../../../public/img/notification.png" alt="Notifications" /></a>
           </li>
           <li>
             <button><img src="../../../public/img/settings.png" alt="Settings" /></button>

@@ -5,7 +5,7 @@ import Contact from '../../components/Contact/Contact.tsx'
 
 const Main: React.FC = () => {
   return (
-    <div>
+    <div className='flex'>
         <Nav />
         <Contact />
     </div>
