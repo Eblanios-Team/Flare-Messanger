@@ -1,0 +1,15 @@
+/* scroll.module.scss */
+
+/* Кастомизация скроллбара */
+.custom-scroll::-webkit-scrollbar {
+  width: 8px; /* Ширина скроллбара */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #ff9800; /* Цвет ползунка */
+  border-radius: 10px; /* Закругленные углы */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Цвет фона трека */
+}
