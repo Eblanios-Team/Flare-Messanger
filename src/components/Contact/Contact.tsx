@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-[400px] bg-white m-auto mt-[70px] rounded-t-xl pt-5 pl-5 sm:w-[300px] flex-grow">
+      <div className="w-[300px] bg-white m-auto mt-[70px] rounded-t-xl pt-5 pl-5 sm:w-[300px] flex-grow">
         <h2 className="text-[22px]">People</h2>
         {/* Ваши данные или контент */}
       </div>
