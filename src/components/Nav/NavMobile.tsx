@@ -12,7 +12,7 @@ const NavMobile = ({ isOpen, toggleMenu }: { isOpen: boolean; toggleMenu: () => 
         {/* Аватар */}
         <button className="mt-[60px] mb-[60px]">
           <img
-            src="../../../public/img/avatar.png"
+            src="/img/avatar.png"
             alt="Avatar"
             className="border-solid border-2 border-white rounded-[100px]"
           />
@@ -22,24 +22,24 @@ const NavMobile = ({ isOpen, toggleMenu }: { isOpen: boolean; toggleMenu: () => 
         <ul className="flex flex-col items-center flex-grow w-full">
           <li className="mb-[48px]">
             <a href="">
-              <img src="../../../public/img/chat.png" alt="Chat" />
+              <img src="/img/chat.png" alt="Chat" />
             </a>
           </li>
           <li className="mb-[48px]">
             <a href="">
-              <img src="../../../public/img/notification.png" alt="Notifications" />
+              <img src="/img/notification.png" alt="Notifications" />
             </a>
           </li>
           <li>
             <button>
-              <img src="../../../public/img/settings.png" alt="Settings" />
+              <img src="/img/settings.png" alt="Settings" />
             </button>
           </li>
         </ul>
 
         {/* Кнопка выхода */}
         <Link to={"/login"} className="p-4 mb-5">
-          <img src="../../../public/img/exit.png" alt="Exit" />
+          <img src="/img/exit.png" alt="Exit" />
         </Link>
       </nav>
     </div>

@@ -10,12 +10,12 @@ const Contact = () => {
     <section className="bg-[#EEEEEE] w-full md:w-[400px] h-screen flex flex-col">
       <div className="flex justify-around m-[15px] items-center sm:justify-center">
         <button onClick={toggleMenu} className="cursor-pointer">
-          <img src="../../../public/img/burger-menu.svg" alt="" className="w-[35px] sm:hidden" />
+          <img src="/img/burger-menu.svg" alt="" className="w-[35px] sm:hidden" />
         </button>
 
         <div className="relative w-[300px]">
           <input type="text" className="w-full h-[40px] rounded-[10px] shadow-xl pr-10 pl-4 focus:outline-none" placeholder="Search" />
-          <img src="../../../public/img/search.png" className="cursor-pointer w-[25px] absolute right-3 top-1/2 transform -translate-y-1/2" alt="Search" />
+          <img src="/img/search.png" className="cursor-pointer w-[25px] absolute right-3 top-1/2 transform -translate-y-1/2" alt="Search" />
         </div>
       </div>
 
