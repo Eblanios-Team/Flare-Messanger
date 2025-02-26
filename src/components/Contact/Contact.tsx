@@ -1,6 +1,7 @@
 import { useState } from "react";
 import NavMobile from "../Nav/NavMobile";
 import '../../styles/scroll.module.scss'
+import People from "../UI/People/People";
 
 const Contact = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -20,8 +21,11 @@ const Contact = () => {
       </div>
 
       <div className="w-[300px] bg-white m-auto mt-[70px] rounded-t-xl pt-5 pl-5 sm:w-[300px] flex-grow">
-        <h2 className="text-[22px]">People</h2>
-        {/* Ваши данные или контент */}
+        <h2 className="text-[22px] mb-[20px]">People</h2>
+          <People />
+          <People />
+          <People />
+          <People />
       </div>
 
       {/* Передаём состояние и функцию закрытия меню */}

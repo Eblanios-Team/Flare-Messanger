@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
-import Modal from "../../components/Modal/Modal.tsx";
+import Modal from "../../components/UI/Modal/Modal.tsx";
 
 const SignIn: React.FC = () => {
   const [email, setEmail] = useState<string>('')
