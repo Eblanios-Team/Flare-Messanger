@@ -8,7 +8,7 @@ const Contact = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <section className="bg-[#EEEEEE] w-full md:w-[400px] h-screen flex flex-col">
+    <section className="bg-[#EEEEEE] w-full md:w-[500px] h-screen flex flex-col">
       <div className="flex justify-around m-[15px] items-center sm:justify-center">
         <button onClick={toggleMenu} className="cursor-pointer">
           <img src="/img/burger-menu.svg" alt="" className="w-[35px] sm:hidden" />
@@ -20,11 +20,8 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-[300px] bg-white m-auto mt-[70px] rounded-t-xl pt-5 pl-5 sm:w-[300px] flex-grow">
+      <div className="w-[300px] bg-white m-auto mt-[70px] rounded-t-xl pt-5 pl-5 sm:w-[300px] flex-grow ">
         <h2 className="text-[22px] mb-[20px]">People</h2>
-          <People />
-          <People />
-          <People />
           <People />
       </div>
 
