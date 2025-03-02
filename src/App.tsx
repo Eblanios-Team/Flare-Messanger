@@ -1,15 +1,14 @@
-import { BrowserRouter } from "react-router-dom";
-import Router from "../router.tsx"; // Импортируем маршруты
-
+import { BrowserRouter } from 'react-router-dom'
+import Router from './pages/Router.tsx' // Импортируем маршруты
 
 function App() {
-  return (
-    <>
-      <BrowserRouter> 
-        <Router /> 
-      </BrowserRouter>
-    </>
-  );
+	return (
+		<>
+			<BrowserRouter>
+				<Router />
+			</BrowserRouter>
+		</>
+	)
 }
 
-export default App;
+export default App

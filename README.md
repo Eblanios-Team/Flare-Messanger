@@ -36,7 +36,7 @@ Flare is a modern messenger with advanced messaging capabilities, multimedia fil
 - **Docker** — For containerization, simplifying deployment, and ensuring consistency across environments.
 - **Echo (Go)** — For building high-performance, scalable web applications in Go (especially backend APIs).
 - **Slog** — Structured logging library for Go, providing better logging and debugging capabilities.
-- **JWT (JSON Web Token)** — For handling secure authentication and authorization in both frontend and backend 
+- **JWT (JSON Web Token)** — For handling secure authentication and authorization in both frontend and backend
 
 ---
 
