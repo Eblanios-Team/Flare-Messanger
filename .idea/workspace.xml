@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaef094e-ae9f-4059-b1da-39ca5b064353" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/img/close-btn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/empty-avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/People/People.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/People/People.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -35,28 +42,33 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2tGQjt22EA9zYSe1WCP2jTMafwb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Develop",
-    "last_opened_file_path": "E:/Codes/react-pizza",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "E:\\Codes\\Flare-Messanger\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Codes/Flare-Messanger/src/components/Nav&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;E:\\Codes\\Flare-Messanger\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Codes\\Flare-Messanger\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Codes\Flare-Messanger\src\components\Nav" />
       <recent name="E:\Codes\Flare-Messanger\public\img" />
     </key>
   </component>
@@ -85,6 +97,10 @@
       <workItem from="1740399941188" duration="29000" />
       <workItem from="1740922071071" duration="966000" />
       <workItem from="1740923060395" duration="323000" />
+      <workItem from="1740933734645" duration="4080000" />
+      <workItem from="1740938159146" duration="32000" />
+      <workItem from="1741029898757" duration="5060000" />
+      <workItem from="1741103141818" duration="5139000" />
     </task>
     <servers />
   </component>

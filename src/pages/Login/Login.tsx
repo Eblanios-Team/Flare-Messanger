@@ -53,22 +53,24 @@ const SignIn: React.FC = () => {
 	return (
 		<div>
 			<Modal opened={showModal}>
-				<h3 className='text-4xl font-bold text-[#525252] mb-9 text-center'>Password recovery</h3>
-				<p>
-					An email has been sent to your address
-					<br />
-					<b>{email}</b> .<br />
-					I’m not sure how to explain it properly, but it’s something like instructions for
-					resetting your password. If you can’t remember your password, my advice to you is: eat
-					nuts and drink more coffee, as it helps with Alzheimer’s.
-				</p>
-				<button
-					onClick={() => setShowModal(false)}
-					type='button'
-					className='w-full h-11 border rounded-md bg-orange text-white font-extrabold disabled:bg-neutral-200'
-				>
-					Okay, thank you
-				</button>
+				<div className='text-center flex flex-col justify-between items-center h-full w-full'>
+					<h3 className='text-4xl font-bold text-[#525252] mb-9 text-center'>Password recovery</h3>
+					<p>
+						An email has been sent to your address
+						<br />
+						<b>{email}</b>
+						<br />
+						I’m not sure how to explain it properly, but it’s something like instructions for
+						resetting your password. If you can’t remember your password, my advice to you is: eat
+						nuts and drink more coffee, as it helps with Alzheimer’s.
+					</p>
+					<button
+						onClick={() => setShowModal(false)}
+						type='button'
+						className='w-full h-11 border rounded-md bg-orange text-white font-extrabold disabled:bg-neutral-200'>
+						Okay, thank you
+					</button>
+				</div>
 			</Modal>
 			<div className='flex md:flex-row min-h-screen items-end'>
 				{/* Левая часть */}
@@ -89,8 +91,7 @@ const SignIn: React.FC = () => {
 						<form onSubmit={handleSubmit} className='flex flex-col w-full mb-48'>
 							<label
 								htmlFor='email'
-								className='flex flex-col text-sm font-semibold text-[#828282] mb-6'
-							>
+								className='flex flex-col text-sm font-semibold text-[#828282] mb-6'>
 								Email
 								<input
 									type='email'
@@ -108,8 +109,7 @@ const SignIn: React.FC = () => {
 							</label>
 							<label
 								htmlFor='password'
-								className='flex flex-col text-sm font-semibold text-[#828282] mb-2'
-							>
+								className='flex flex-col text-sm font-semibold text-[#828282] mb-2'>
 								Password
 								<input
 									type='password'
@@ -127,8 +127,7 @@ const SignIn: React.FC = () => {
 							<div className='flex w-full justify-between items-center mb-8'>
 								<label
 									htmlFor='checkbox'
-									className='text-xs text-[#A1A1A1] font-normal flex items-center justify-between'
-								>
+									className='text-xs text-[#A1A1A1] font-normal flex items-center justify-between'>
 									<input
 										type='checkbox'
 										id='checkbox'
@@ -142,16 +141,14 @@ const SignIn: React.FC = () => {
 								<button
 									className='text-orange font-semibold text-xs disabled:text-neutral-200 hover:underline'
 									onClick={() => setShowModal(true)}
-									disabled={!isEmailValid}
-								>
+									disabled={!isEmailValid}>
 									Forgot Password?
 								</button>
 							</div>
 							<button
 								className='w-full h-11 border rounded-md bg-orange text-white font-extrabold disabled:bg-neutral-200'
 								type='submit'
-								disabled={!isFormValid}
-							>
+								disabled={!isFormValid}>
 								Login
 							</button>
 						</form>
