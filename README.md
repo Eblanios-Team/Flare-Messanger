@@ -28,10 +28,10 @@ Flare is a modern messenger with advanced messaging capabilities, multimedia fil
 
 ### 🔹 Backend:
 
-- **Python (FastAPI)** / **Go (Golang)** — API processing and business logic.
+- **Python (FastAPI)** — API processing and business logic.
 - **PostgreSQL** — Database for storing users, chats, and messages.
 - **Redis** — Caching and task queue processing.
-- **Firebase Storage / S3** — Storage for multimedia files.
+- **Firebase Storage** — Storage for multimedia files.
 - **WebSockets** — Real-time message handling.
 - **Docker** — For containerization, simplifying deployment, and ensuring consistency across environments.
 - **JWT (JSON Web Token)** — For handling secure authentication and authorization in both frontend and backend 
