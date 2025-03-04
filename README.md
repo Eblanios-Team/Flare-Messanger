@@ -28,7 +28,7 @@ Flare is a modern messenger with advanced messaging capabilities, multimedia fil
 
 ### 🔹 Backend:
 
-- **Python (FastAPI)** — API processing and business logic.
+- **Python (Django)** — API processing and business logic.
 - **PostgreSQL** — Database for storing users, chats, and messages.
 - **Redis** — Caching and task queue processing.
 - **Firebase Storage** — Storage for multimedia files.
